@@ -6,10 +6,28 @@
     <description>Recent content in Posts on 饭饼饼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 02 Nov 2019 02:54:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 19:06:34 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 02 Nov 2019 19:06:34 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何用hugo搭建个人博客 Hugo是一个用Go语言编写的静态网站生成器，它使用起来非常简单，只要要一个二进制文件hugo(hugo.exe)即可轻松用于本地调试和生成静态页面。
+Hugo下载地址：https://github.com/gohugoio/hugo/releases
+下载安装Hugo 选择对应的文件一路Next安装即可，比如我的电脑是windows 64位就下载hugo_0.59.1_Windows-64bit.zip
+解压后将其添加到环境变量中即可。
+创建站点 一般为github的用户名。
+用vscode运行，得到以下目录
+ archetypes ：存放default.md，头文件格式 content ：content目录存放博客文章（markdown文件） data ：存放自定义模版，导入的toml文件（或json，yaml） layouts ：layouts目录存放的是网站的模板文件 static ：static目录存放图片，css等静态资源 config.toml ：config.toml是网站的配置文件  添加主题 Hugo上有大量的主题，新手建议使用默认主题。
+编写博客内容 创建第一篇博客，创建md时文件默认是draft = true，即草稿，博客完成后可将true改为false发表。
+运行Hugo 在站点根目录执行 Hugo 命令进行调试。
+部署 在GitHub上创建一个Repository，命名为：用户名.github.io。在站点根目录执行 Hugo 命令生成最终页面。</description>
+    </item>
     
     <item>
       <title>开博客啦</title>
